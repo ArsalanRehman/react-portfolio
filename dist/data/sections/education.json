@@ -1,0 +1,215 @@
+{
+  "locales": {
+    "en": {
+      "title": "Education",
+      "title_long_prefix": "This is my",
+      "title_long": "**Educational** Background"
+    },
+    "es": {
+      "title": "Educación",
+      "title_long_prefix": "Esta es mi",
+      "title_long": "**Formación** Educativa"
+    },
+    "fr": {
+      "title": "Éducation",
+      "title_long_prefix": "C'est mon",
+      "title_long": "**Contexte** Éducatif"
+    },
+    "ko": {
+      "title": "교육",
+      "title_long_prefix": "이것은 내",
+      "title_long": "**교육적** 배경"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "academic",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/place-1.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "09/01/2013",
+            "end": "06/01/2017"
+          },
+          "locales": {
+            "en": {
+              "title": "**High School** Diploma",
+              "info": "Uluslararası Şehit Ömer Halisdemir Anadolu Lisesi (Kayseri)",
+              "text": "Completed high school education with a strong focus on mathematics, physics, and computer science, graduating with top marks and participating in several technology competitions.",
+              "tags": []
+            },
+            "es": {
+              "title": "**Diploma** de Escuela Secundaria",
+              "info": "Uluslararası Şehit Ömer Halisdemir Anadolu Lisesi (Kayseri)",
+              "text": "Completé la educación secundaria con un fuerte enfoque en matemáticas, física y ciencias de la computación, graduándome con las mejores calificaciones y participando en varias competiciones tecnológicas.",
+              "tags": null
+            },
+            "fr": {
+              "title": "**Diplôme** de Lycée",
+              "info": "Uluslararası Şehit Ömer Halisdemir Anadolu Lisesi (Kayseri)",
+              "text": "J'ai terminé mes études secondaires avec une forte spécialisation en mathématiques, physique et informatique, obtenant d'excellentes notes et participant à plusieurs concours technologiques.",
+              "tags": null
+            },
+            "ko": {
+              "title": "**고등학교** 졸업장",
+              "info": "Uluslararası Şehit Ömer Halisdemir Anadolu Lisesi (Kayseri)",
+              "text": "수학, 물리학 및 컴퓨터 과학에 중점을 둔 고등학교 교육을 마쳤으며, 우수한 성적으로 졸업하고 여러 기술 경진대회에 참여했습니다.",
+              "tags": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-2.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "10/01/2017",
+            "end": "10/01/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "**Bachelor's** in Computer Engineering",
+              "info": "Harran University",
+              "text": "Completed a Bachelor's degree in Computer Engineering, covering algorithms, data structures, full-stack development and robotics integration. Actively contributed to research on cloud robotics and containerized deployments.",
+              "tags": [
+                "UDEF Scholarship",
+                "GDG Community",
+                "Cyber Security Community",
+                "IEEE Community",
+                "International Students Community"
+              ]
+            },
+            "es": {
+              "title": "**Grado** en Ingeniería Informática",
+              "info": "Harran University",
+              "text": "Obtuve una licenciatura en Ingeniería Informática, abarcando algoritmos, estructuras de datos, desarrollo full-stack e integración de robótica. Contribuí activamente a investigaciones sobre robótica en la nube y despliegues con contenedores.",
+              "tags": null
+            },
+            "fr": {
+              "title": "**Licence** en Génie Informatique",
+              "info": "Harran University",
+              "text": "J'ai obtenu une licence en Génie Informatique, couvrant les algorithmes, les structures de données, le développement full-stack et l'intégration robotique. J'ai participé activement à des recherches sur la robotique cloud et les déploiements conteneurisés.",
+              "tags": null
+            },
+            "ko": {
+              "title": "**학사** 컴퓨터 공학",
+              "info": "Harran University",
+              "text": "알고리즘, 데이터 구조, 풀스택 개발 및 로봇 통합을 포함한 컴퓨터 공학 학사 학위를 취득했습니다. 클라우드 로보틱스 및 컨테이너화된 배포에 대한 연구에도 적극 참여했습니다.",
+              "tags": null
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-3.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "08/01/2023",
+            "end": "12/01/2023"
+          },
+          "locales": {
+            "en": {
+              "title": "**Cyber Operations Monitoring Specialist Training**",
+              "info": "HAVELSAN",
+              "text": "Completed specialized training in cybersecurity monitoring operations, including intrusion detection, incident response, and SIEM tool utilization."
+            },
+            "es": {
+              "title": "**Formación** en Monitorización de Operaciones Cibernéticas",
+              "info": "HAVELSAN",
+              "text": "Completé una formación especializada en operaciones de monitoreo de ciberseguridad, incluyendo detección de intrusiones, respuesta a incidentes y uso de herramientas SIEM."
+            },
+            "fr": {
+              "title": "**Formation** en Surveillance des Opérations Cyber",
+              "info": "HAVELSAN",
+              "text": "J'ai suivi une formation spécialisée sur les opérations de surveillance en cybersécurité, incluant la détection d'intrusions, la réponse aux incidents et l'utilisation d'outils SIEM."
+            },
+            "ko": {
+              "title": "사이버 운영 모니터링 전문가 **교육**",
+              "info": "HAVELSAN",
+              "text": "침입 탐지, 사고 대응 및 SIEM 도구 사용을 포함한 사이버 보안 모니터링 운영 전문 교육을 완료했습니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-4.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "01/01/2019",
+            "end": "02/01/2019"
+          },
+          "locales": {
+            "en": {
+              "title": "**Web Penetration & Ethical Hacking Course**",
+              "info": "Prisma CSI",
+              "text": "Acquired hands-on skills in web application penetration testing, vulnerability assessment, and ethical hacking methodologies."
+            },
+            "es": {
+              "title": "Curso de **Penetración Web** y Hacking Ético",
+              "info": "Prisma CSI",
+              "text": "Adquirí habilidades prácticas en pruebas de penetración de aplicaciones web, evaluación de vulnerabilidades y metodologías de hacking ético."
+            },
+            "fr": {
+              "title": "Cours de **Pentest Web** et Hacking Éthique",
+              "info": "Prisma CSI",
+              "text": "J'ai acquis des compétences pratiques en tests d'intrusion d'applications web, évaluation des vulnérabilités et stratégies de hacking éthique."
+            },
+            "ko": {
+              "title": "웹 침투 테스트 및 **윤리적 해킹** 과정",
+              "info": "Prisma CSI",
+              "text": "웹 애플리케이션 침투 테스트, 취약점 평가 및 윤리적 해킹 방법론에 대한 실무 능력을 습득했습니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-5.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "01/01/2018",
+            "end": "02/01/2018"
+          },
+          "locales": {
+            "en": {
+              "title": "**Network Penetration Testing**",
+              "info": "zSecurity",
+              "text": "Learned network security assessment techniques, including vulnerability scanning, exploitation, and reporting using tools like Nmap and Metasploit."
+            },
+            "es": {
+              "title": "**Pruebas de Penetración** de Red",
+              "info": "zSecurity",
+              "text": "Aprendí técnicas de evaluación de seguridad de redes, incluyendo escaneo de vulnerabilidades, explotación e informes usando herramientas como Nmap y Metasploit."
+            },
+            "fr": {
+              "title": "**Tests d'Intrusion** Réseau",
+              "info": "zSecurity",
+              "text": "J'ai appris des techniques pour tester la sécurité réseau, y compris le scan de vulnérabilités, l'exploitation et le reporting avec des outils tels que Nmap et Metasploit."
+            },
+            "ko": {
+              "title": "네트워크 **침투 테스트**",
+              "info": "zSecurity",
+              "text": "Nmap 및 Metasploit과 같은 도구를 사용하여 취약점 스캔, 익스플로잇 및 보고를 포함한 네트워크 보안 평가 기술을 배웠습니다."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

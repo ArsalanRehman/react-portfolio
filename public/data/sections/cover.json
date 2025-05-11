@@ -1,0 +1,414 @@
+{
+  "locales": {
+    "en": {
+      "title": "Welcome!",
+      "title_menu": "About me",
+      "title_long_prefix": "Hello...",
+      "title_long": "I'm **Arsalan Rehman!**"
+    },
+    "es": {
+      "title": "¡Saludos!",
+      "title_menu": "Sobre mí",
+      "title_long_prefix": "Hola...",
+      "title_long": "Soy **Arsalan Rehman!**"
+    },
+    "fr": {
+      "title": "Salut !",
+      "title_menu": "À propos",
+      "title_long_prefix": "Salut...",
+      "title_long": "Je suis **Arsalan Rehman!**"
+    },
+    "ko": {
+      "title": "환영합니다!",
+      "title_menu": "소개",
+      "title_long_prefix": "안녕하세요...",
+      "title_long": "저는 **Arsalan Rehman** 입니다!"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "ignorePaddingTop": true,
+        "format": "inline"
+      },
+      "locales": {
+        "en": {},
+        "es": {},
+        "fr": {},
+        "ko": {}
+      },
+      "items": [
+        {
+          "value": "Turkiye",
+          "links": [{ "href": null }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-city",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "xxxxxx",
+          "links": [{ "href": "tel:xxxxxx" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-phone",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "arsalanrahman008@gmail.com",
+          "links": [{ "href": "mailto:arsalanrahman008@gmail.com" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "Arsalan Rehman",
+          "links": [
+            {
+              "href": "https://www.linkedin.com/in/arsalan-rehman-38a005181/"
+            }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-linkedin",
+            "faColors": { "bg": null, "fill": null }
+          }
+        },
+        {
+          "value": "@ArsalanRehman",
+          "links": [{ "href": "https://github.com/ArsalanRehman" }],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-github",
+            "faColors": { "bg": null, "fill": null }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "short_description",
+      "component": "ArticleInfoBlock",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "**A little bit** about me...",
+          "text": "<p>I’m a <b>full-stack developer</b> with <b>4 years of experience</b> building secure, efficient applications using <b>Node.js</b>, <b>React</b>, <b>Docker</b>, and <b>Kubernetes</b>.</p><p>Currently, I’m a part-time cybersecurity student specializing in <b>penetration testing</b>, with hands-on expertise in <b>Metasploit</b> and <b>Nmap</b>.</p><p>I’m passionate about identifying vulnerabilities and strengthening system defenses.</p>"
+        },
+        "es": {
+          "title": "**Un poco** sobre mí...",
+          "text": "<p>Soy desarrollador <b>full-stack</b> con <b>4 años de experiencia</b> construyendo aplicaciones seguras y eficientes usando <b>Node.js</b>, <b>React</b>, <b>Docker</b> y <b>Kubernetes</b>.</p><p>Actualmente estudio ciberseguridad a tiempo parcial, especializándome en <b>pruebas de penetración</b>, con experiencia práctica en <b>Metasploit</b> y <b>Nmap</b>.</p><p>Me apasiona identificar vulnerabilidades y fortalecer la defensa de los sistemas.</p>"
+        },
+        "fr": {
+          "title": "**Un peu** à propos de moi...",
+          "text": "<p>Je suis développeur <b>full-stack</b> avec <b>4 ans d'expérience</b> dans la création d'applications sécurisées et performantes utilisant <b>Node.js</b>, <b>React</b>, <b>Docker</b> et <b>Kubernetes</b>.</p><p>Actuellement, je suis étudiant en cybersécurité à temps partiel, spécialisé dans les <b>tests d'intrusion</b>, avec une expertise pratique de <b>Metasploit</b> et <b>Nmap</b>.</p><p>Je suis passionné par l'identification des vulnérabilités et le renforcement de la défense des systèmes.</p>"
+        },
+        "ko": {
+          "title": "저에 **대해 조금**...",
+          "text": "<p>저는 <b>4년 경력의 풀스택 개발자</b>로서 Node.js, React, Docker 및 Kubernetes를 사용하여 안전하고 효율적인 애플리케이션을 구축합니다.</p><p>현재 파트타임 사이버 보안 학생으로 <b>침투 테스트</b>를 전문으로 하며 Metasploit과 Nmap에 대한 실무 경험을 쌓고 있습니다.</p><p>취약점을 식별하고 시스템 방어를 강화하는 것에 열정을 가지고 있습니다.</p>"
+        }
+      }
+    },
+
+    {
+      "id": "testimonials",
+      "component": "ArticleTestimonials",
+      "config": {},
+      "locales": {
+        "en": { "title": "Client **testimonials**" },
+        "es": { "title": "Testimonios de **clientes**" },
+        "fr": { "title": "Témoignages de **clients**" },
+        "ko": { "title": "**고객** 추천사" }
+      },
+      "items": [
+        {
+          "value": "Anita Bath",
+          "links": [{ "href": "https://linkedin.com" }],
+          "icon": {
+            "img": "images/pictures/person-1.png",
+            "fa": "fa-solid fa-user",
+            "faColors": null
+          },
+          "locales": {
+            "en": {
+              "info": "CEO at <b>SalesForce</b>",
+              "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+            },
+            "es": {
+              "info": "CEO en <b>SalesForce</b>",
+              "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+            },
+            "fr": {
+              "info": "PDG de <b>SalesForce</b>",
+              "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+            },
+            "ko": {
+              "info": "세일즈포스  CEO",
+              "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
+            }
+          }
+        },
+        {
+          "value": "Lou Natic",
+          "links": [{ "href": "https://github.com" }],
+          "icon": {
+            "img": "images/pictures/person-3.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "info": "Lead Developer at <b>GitHub</b>",
+              "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+            },
+            "es": {
+              "info": "Desarrollador Principal en <b>GitHub</b>",
+              "text": "Tener a Mark en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
+            },
+            "fr": {
+              "info": "Développeur Principal chez <b>GitHub</b>",
+              "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
+            },
+            "ko": {
+              "info": "<b>GitHub</b> 수석 개발자",
+              "text": "우리 팀에 Mark가 있다는 것은 귀중한 자산이었습니다. 그의 깊은 프로그래밍 통찰력과 멘토링은 우리의 프로젝트를 높이고 모든 도전에 자신감과 창의성으로 대응할 수 있게 해주었습니다."
+            }
+          }
+        },
+        {
+          "value": "Paige Turner",
+          "links": [{ "href": null }],
+          "icon": {
+            "img": "images/pictures/person-2.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "info": "Managing Director at <b>Dingga</b>",
+              "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+            },
+            "es": {
+              "info": "Directora General en <b>Dingga</b>",
+              "text": "Colaborar con Mark fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
+            },
+            "fr": {
+              "info": "Directrice Générale chez <b>Dingga</b>",
+              "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
+            },
+            "ko": {
+              "info": "딩가 전무이사",
+              "text": "Mark와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
+            }
+          }
+        },
+        {
+          "value": "Chris P. Bacon",
+          "links": [{ "href": "https://dribbble.com" }],
+          "icon": {
+            "img": "images/pictures/person-4.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "info": "Creative Director at <b>Dribbble</b>",
+              "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+            },
+            "es": {
+              "info": "Directora Creativa en <b>Dribbble</b>",
+              "text": "La atención al detalle de Mark y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
+            },
+            "fr": {
+              "info": "Directrice Créative chez <b>Dribbble</b>",
+              "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
+            },
+            "ko": {
+              "info": "<b>Dribbble</b> 크리에이티브 디렉터",
+              "text": "Mark의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "interests",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": { "title": "Personal **interests**" },
+        "es": { "title": "Intereses **personales**" },
+        "fr": { "title": "Intérêts **personnels**" },
+        "ko": { "title": "개인 **관심사**" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-cloud",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Cloud computing",
+              "info": "Exploring AWS, Azure, and Google Cloud platforms."
+            },
+            "es": {
+              "title": "Computación en la nube",
+              "info": "Explorando las plataformas AWS, Azure y Google Cloud."
+            },
+            "fr": {
+              "title": "Informatique en nuage",
+              "info": "Exploration des plateformes AWS, Azure et Google Cloud."
+            },
+            "ko": {
+              "title": "클라우드 컴퓨팅",
+              "info": "AWS, Azure 및 Google Cloud 플랫폼 탐색."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-user-secret",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Hacking",
+              "info": "Practicing penetration testing and vulnerability assessment."
+            },
+            "es": {
+              "title": "Hacking",
+              "info": "Practicando pruebas de penetración y evaluación de vulnerabilidades."
+            },
+            "fr": {
+              "title": "Hacking",
+              "info": "Pratique des tests d'intrusion et d'évaluation des vulnérabilités."
+            },
+            "ko": {
+              "title": "해킹",
+              "info": "침투 테스트 및 취약점 평가 연습."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-table-tennis",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Table tennis",
+              "info": "Playing matches and improving my technique."
+            },
+            "es": {
+              "title": "Tenis de mesa",
+              "info": "Jugando partidos y mejorando mi técnica."
+            },
+            "fr": {
+              "title": "Tennis de table",
+              "info": "Jouer des matchs et améliorer ma technique."
+            },
+            "ko": {
+              "title": "탁구",
+              "info": "경기를 하며 기술 향상."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-docker",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Docker",
+              "info": "Containerizing applications and exploring orchestration."
+            },
+            "es": {
+              "title": "Docker",
+              "info": "Contenerizando aplicaciones y explorando orquestación."
+            },
+            "fr": {
+              "title": "Docker",
+              "info": "Containerisation d'applications et exploration de l'orchestration."
+            },
+            "ko": {
+              "title": "도커",
+              "info": "애플리케이션 컨테이너화 및 오케스트레이션 탐색."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-shuttlecock",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Badminton",
+              "info": "Enjoying competitive and casual games."
+            },
+            "es": {
+              "title": "Bádminton",
+              "info": "Disfrutando de juegos competitivos e informales."
+            },
+            "fr": {
+              "title": "Badminton",
+              "info": "Profiter de jeux compétitifs et amicaux."
+            },
+            "ko": {
+              "title": "배드민턴",
+              "info": "경쟁 및 캐주얼 경기 즐기기."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-chart-line",
+            "faColors": null
+          },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Forex & crypto trading",
+              "info": "Learning market analysis and trading strategies."
+            },
+            "es": {
+              "title": "Trading Forex y cripto",
+              "info": "Aprendiendo análisis de mercado y estrategias de trading."
+            },
+            "fr": {
+              "title": "Trading Forex & crypto",
+              "info": "Apprentissage de l'analyse de marché et des stratégies de trading."
+            },
+            "ko": {
+              "title": "외환 및 암호화폐 거래",
+              "info": "시장 분석 및 거래 전략 학습."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
