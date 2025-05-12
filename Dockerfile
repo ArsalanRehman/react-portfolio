@@ -1,36 +1,30 @@
-# --- Builder stage ---------------------------------------------------------
-# 1. Use a lightweight Node image
+# 1) Build stage
 FROM node:18-alpine AS builder
-
-# 2. Set working dir
 WORKDIR /app
 
-# 3. Copy dependency manifests
-COPY package.json package-lock.json* ./
-
-# 4. Install deps
+# Copy manifests and install deps
+COPY package.json vite.config.js ./
 RUN npm install
 
-# 5. Copy the rest of the source
-COPY . .
+# Copy the HTML entry, public assets and source
+COPY index.html ./
+COPY public    ./public
+COPY src       ./src
 
-# 6. Build for production (outputs to /app/dist by default)
+# Build the production bundle
 RUN npm run build
 
-
-
-# --- Production stage ------------------------------------------------------
-# 1. Use the official Nginx Alpine image
+# 2) Serve stage
 FROM nginx:alpine
 
-# 2. Remove the default nginx static assets
-RUN rm -rf /usr/share/nginx/html/*
+# Remove default config
+RUN rm /etc/nginx/conf.d/default.conf
 
-# 3. Copy our production build
+# Copy in your nginx.conf
+COPY nginx.conf /etc/nginx/conf.d/
+
+# Copy built files
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# 4. Expose port 80
 EXPOSE 80
-
-# 5. Run nginx in foreground
 CMD ["nginx", "-g", "daemon off;"]
