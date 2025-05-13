@@ -1,0 +1,11 @@
+version: '3'
+services:
+  react-portfolio:
+    build: .
+    ports:
+      - "8001:80"  # Map port 8001 on the host to port 80 inside the container
+    restart: unless-stopped  # Ensure the container restarts on reboot
+    volumes:
+      - .:/app  # Mount the current directory to the /app directory inside the container (optional)
+    environment:
+      - NODE_ENV=production  # Optional: Set the environment variable for production
