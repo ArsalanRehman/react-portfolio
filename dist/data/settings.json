@@ -4,9 +4,9 @@
   "fullScreenButtonEnabled": true,
 
   "preloader": {
-    "enabled": false,
+    "enabled": true,
     "title": "React <b>Portfolio</b>",
-    "subtitle": "by Ryan Balieiro"
+    "subtitle": "by Arsalan Rehman"
   },
 
   "profile": {
